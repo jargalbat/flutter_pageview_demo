@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_pageview_demo/custom_page_view/provider/index_notifier.dart';
 import 'package:flutter_pageview_demo/custom_page_view/provider/offset_notifier.dart';
+import 'package:flutter_pageview_demo/custom_page_view/ui/page2.dart';
 import 'package:provider/provider.dart';
 
 import 'page1.dart';
@@ -32,7 +33,7 @@ class _CustomPageViewState extends State<CustomPageView> {
         },
         children: <Widget>[
           Page1(),
-          Icon(Icons.event, size: 100.0),
+          Page2(),
           Icon(Icons.shop, size: 100.0),
         ],
       ),
